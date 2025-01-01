@@ -7,6 +7,7 @@ public class FindingSubSets {
     }
     public static void subSets(String str,String inp,int i,int j){
         if(i== inp.length()){
+            if(str.isEmpty()) System.out.println("Null");
             System.out.println(str);
             return;
         }
